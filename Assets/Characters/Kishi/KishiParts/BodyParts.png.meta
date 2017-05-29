@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: faed8f314538d2c47b24e835d70451f3
+timeCreated: 1495901323
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LeftUpperArm
+    21300002: Head
+    21300004: Body
+    21300006: LeftLowerArm
+    21300008: RightUpperArm
+    21300010: RightLowerArm
+    21300012: LeftUpperLeg
+    21300014: LeftMidLeg
+    21300016: leftFoot
+    21300018: RightUpperLeg
+    21300020: RightMidLeg
+    21300022: RightMidLeg
+    21300024: RightFoot
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Samsung TV
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LeftUpperArm
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3749
+        width: 548
+        height: 871
+      alignment: 9
+      pivot: {x: 0.52748287, y: 0.863117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Head
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 3821
+        width: 1307
+        height: 1086
+      alignment: 9
+      pivot: {x: 0.43086132, y: 0.16023245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Body
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 2243
+        width: 1241
+        height: 1477
+      alignment: 9
+      pivot: {x: 0.23300911, y: 0.20939034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LeftLowerArm
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2649
+        width: 407
+        height: 885
+      alignment: 9
+      pivot: {x: 0.48149803, y: 0.8318464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RightUpperArm
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 3691
+        width: 500
+        height: 964
+      alignment: 9
+      pivot: {x: 0.5301211, y: 0.8280865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RightLowerArm
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 2592
+        width: 443
+        height: 892
+      alignment: 9
+      pivot: {x: 0.48300108, y: 0.8292422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LeftUpperLeg
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1006
+        width: 550
+        height: 994
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8333358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LeftMidLeg
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1013
+        width: 474
+        height: 753
+      alignment: 9
+      pivot: {x: 0.6270945, y: 0.84001625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: leftFoot
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 102
+        width: 662
+        height: 399
+      alignment: 9
+      pivot: {x: 0.35212278, y: 0.7076036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RightUpperLeg
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 998
+        width: 558
+        height: 927
+      alignment: 9
+      pivot: {x: 0.52699023, y: 0.833058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RightFoot
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 117
+        width: 911
+        height: 414
+      alignment: 9
+      pivot: {x: 0.31814712, y: 0.66370326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RightMidLeg
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 734
+        width: 459
+        height: 806
+      alignment: 9
+      pivot: {x: 0.6148418, y: 0.7709435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
