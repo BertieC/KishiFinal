@@ -8,6 +8,8 @@ using UnityEngine;
 
 namespace Vuforia
 {
+    
+
     /// <summary>
     /// A custom handler that implements the ITrackableEventHandler interface.
     /// </summary>
@@ -84,13 +86,24 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+
+            //added code
+            if (mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>() != null)
+            {
+                mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Play();
+            }
+            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
         }
+
+
 
 
         private void OnTrackingLost()
         {
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
+
+            mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Pause();
 
             // Disable rendering:
             foreach (Renderer component in rendererComponents)
