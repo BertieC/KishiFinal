@@ -36,9 +36,10 @@ public class KishiP1 : MonoBehaviour {
 
             myRigitbody.velocity = new Vector2(kishiSpeed, 0);
 
-            if (walkCounter < 0)
+            if (walkCounter <= 0)
             {
-                gameObject.GetComponent<Animator>().Play("Kishi_idle");
+                //gameObject.GetComponent<Animator>().Play("Kishi_idle");
+                gameObject.GetComponent<Animation>().Play("Kishi_idle");
                 isWalking = false;
                 idleCounter = idleTime;
             } 
