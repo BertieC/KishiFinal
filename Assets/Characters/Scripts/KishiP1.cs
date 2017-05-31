@@ -39,7 +39,7 @@ public class KishiP1 : MonoBehaviour {
             if (walkCounter <= 0)
             {
                 //gameObject.GetComponent<Animator>().Play("Kishi_idle");
-                gameObject.GetComponent<Animation>().Play("Kishi_idle");
+                gameObject.GetComponent<Animation>().Stop("Kishi_walking");
                 isWalking = false;
                 idleCounter = idleTime;
             } 
